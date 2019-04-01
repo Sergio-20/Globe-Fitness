@@ -1,9 +1,9 @@
 # Globe-Fitness
-An example of a Gym Company Membership Website
+> An example of a Gym Company Membership Website
 
 ## Here's the address:
 
-https://sergio-20.github.io/Globe-Fitness/HTML/Homepage.html
+> https://sergio-20.github.io/Globe-Fitness/HTML/Homepage.html
 ___
 ![Global-Fitness-Homepage-02](https://user-images.githubusercontent.com/29030325/54322109-25f74200-45b1-11e9-9168-c3b9a83213d6.png)
 ___
