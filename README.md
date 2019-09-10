@@ -1,7 +1,7 @@
 # Globe-Fitness
 > An example of a Gym Company Membership Website
 
-## Here's the address:
+## View Online:
 
 > https://sergio-20.github.io/Globe-Fitness/HTML/Homepage.html
 ___
