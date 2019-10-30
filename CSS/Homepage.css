@@ -6,8 +6,7 @@
 }
 
 #pricing {
-  background: #00C851;
-  background-color: #00C851;
+  background-image: linear-gradient(to right, #1eb589, #00ba7f, #00bf73, #00c463, #00c851);
   color: #fff;
 }
 
@@ -24,6 +23,29 @@
 }
 
 /*** Classes ***/
+.contact-form {
+  background-image: linear-gradient(to right, #1eb589, #00ba7f, #00bf73, #00c463, #00c851);color: #fff;
+  padding-bottom: 10em;
+  padding-top: 10em;
+  text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+  height: 60px;
+  width: 50%;
+}
+
+.contact-form input[type='submit'] {
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5em 2em;
+  width: 50%;
+}
+
 .fa-clipboard-list, .fa-dumbbell, .fa-users { font-size: 6em; }
 
 .hr-black {
@@ -41,6 +63,11 @@
 
 .text-center {
   text-align: center;
+}
+
+/*** Utilities ***/
+.px-22 {
+  font-size: 22px;
 }
 
 /*** Elements ***/
