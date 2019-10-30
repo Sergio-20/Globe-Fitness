@@ -10,7 +10,6 @@
     <!--Custom External Stylesheets-->
     <link rel="stylesheet" href="../CSS/Homepage.css">
     <link rel="stylesheet" href="../CSS/Navbar.css">
-    <link rel="stylesheet" href="../CSS/Responsive-Homepage.css">
 
     <!--MD Bootstrap and Fontawesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -18,7 +17,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 
     <!--Favicon-->
@@ -31,86 +29,82 @@
   <body>
     <header>
       <nav>
-        <h1>Globe</h1>
-        <h1>Fitness</h1>
-        <i id="globe" class="fas fa-globe"></i>
-        <button id="dropdown" class="btn btn-success"><i class="fas fa-bars"></i></button>
-        <button id="home" class="btn btn-success">Home</button>
-        <button id="memberships" class="btn btn-success">Membership</button>
-        <button id="about" class="btn btn-success">About Us</button>
-      </nav><div id="top"></div>
-
-      <i id="chev-left" class="fas fa-caret-left"></i>
-      <i id="chev-right" class="fas fa-caret-right"></i>
-
-      <img id="img-slide" src="https://images.pexels.com/photos/17840/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940"/>
-      <a href="#top"><i id="caret-nav" class="fas fa-chevron-circle-up" alt="Trainor squatting with weights."></i></a>
-
-      <br>
+        <div class="left-nav">
+          <h1 class="heading-text text-white">Globe</h1>
+          <i id="globe" class="fas fa-globe"></i>
+          <h1 class="heading-text text-green">Fitness</h1>
+        </div>
+        <div class="right-nav">
+          <button class="btn btn-success">Home</button>
+          <button class="btn btn-success">Membership</button>
+          <button class="btn btn-success">About Us</button>
+        </div>
+      </nav>
     </header>
 
-    <h2 class="img-caption">Use The Latest Equpment</h2>
-
     <main>
-      <div id="services">
-        <h2>Why Choose Globe Fitness?</h2><br>
-        <hr>
-        <h3>We have a wide array of personal trainors, gyms, and programs to suit your needs!</h3>
-        <br>
-        <br>
-        <div id="trainors">
-          <i class="fas fa-users"></i>
-          <p>Personal Trainors To Support You</p>
-        </div>
 
-        <div id="gym">
-          <i class="fas fa-dumbbell"></i>
-          <p>Gyms With The Latest Equpment</p>
-        </div>
+      <div class="text-center" style="padding-top: 2em; padding-bottom: 8em;">
+        <h2 style="margin: 1em auto;">Why Choose Globe Fitness?</h2>
+        <hr class="hr-black">
+        <h3 style="margin: 1em 2em;">We have a wide array of personal trainors, gyms, and programs to suit your needs!</h3>
+        <div id="offerings-section">
 
-        <div id="personal-plan">
-          <i class="fas fa-clipboard-list"></i>
-          <p>Personalized Workout Plans</p>
-        </div>
+          <div>
+            <i class="fas fa-users"></i>
+            <p>Personal Trainors To Support You</p>
+          </div>
 
+          <div>
+            <i class="fas fa-dumbbell"></i>
+            <p>Gyms With The Latest Equpment</p>
+          </div>
+
+          <div>
+            <i class="fas fa-clipboard-list"></i>
+            <p>Personalized Workout Plans</p>
+          </div>
+
+        </div>
       </div>
 
-      <div class="pricing">
-        <h2>Pricing</h2>
+      <div id="pricing" class="text-center">
+        <h2 class="text-white" style="font-size: 48px; font-weight: bold; margin-bottom: 2em; padding-top: 2em;">Pricing</h2>
 
-        <div id="basic">
-          <h3>Basic</h3>
-          <h3>$15/Month</h3>
-          <h3>Machine Access</h3>
-          <h3>1 Trainer</h3>
-          <h3>0 Perks</h3>
+        <div class="wrapper" style="padding-bottom: 8em;">
+          <div class="bg-white">
+            <h3 class="price-heading">Basic</h3>
+            <h3>$15/Month</h3>
+            <h3>Machine Access</h3>
+            <h3>1 Trainer</h3>
+            <h3>0 Perks</h3>
+          </div>
+
+          <div class="bg-white">
+            <h3 class="price-heading">In-Depth</h3>
+            <h3>$25/Month</h3>
+            <h3>Complete Access</h3>
+            <h3>2 Trainers</h3>
+            <h3>5 Perks</h3>
+          </div>
+
+          <div class="bg-white">
+            <h3 class="price-heading">Premium</h3>
+            <h3>$45/Month</h3>
+            <h3>Complete Access</h3>
+            <h3>3 Trainers</h3>
+            <h3>10 Perks</h3>
+          </div>
+
         </div>
-
-        <div id="professional">
-          <h3>Professional</h3>
-          <h3>$25/Month</h3>
-          <h3>Complete Access</h3>
-          <h3>2 Trainers</h3>
-          <h3>5 Perks</h3>
-        </div>
-
-        <div id="all-out">
-          <h3>All-Out</h3>
-          <h3>$45/Month</h3>
-          <h3>Complete Access</h3>
-          <h3>3 Trainers</h3>
-          <h3>10 Perks</h3>
-        </div>
-
       </div>
 
-      <div id="contact-info">
+      <div class="contact-form">
         <h2>Contact Us</h2><br>
         <h3>Need to get in touch?</h3><br>
-        <form action="mailto:exampleemail@gmail.com" enctype="text/plain" method="get">
+        <form action="mailto:exampleemail@gmail.com" enctype="text/plain" method="POST">
           <input type="email" placeholder="Email" name="email"><br><br>
           <input type="text" placeholder="Name" name="name"><br><br>
-          <input type="text" placeholder="Subject" name="subject"><br><br>
           <textarea placeholder="Message" name="message"></textarea><br><br>
           <input class="btn btn-success" type="submit" value="Send">
         </form>

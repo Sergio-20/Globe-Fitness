@@ -1,122 +1,56 @@
-  /*All Selector*/
+/*** Imports ***/
+@import url('https://fonts.googleapis.com/css?family=Arimo|Teko&display=swap');
 
-  * {
-    overflow-x: hidden;
-    z-index: 0;
-  }
+/*** IDs ***/
+#globe {
+  color: #00FFFF;
+  display: flex;
+  align-self: center;
+  margin: auto 0.5em;
+  font-size: 1.5em;
+}
 
-  /*General Elements*/
+/*** Classes ***/
+.btn {
+  margin: 1em 1.5em !important;
+}
+.heading-text {
+  font-family: 'Teko', Arial, Helvetica, sans-serif;
+  font-size: 56px; 
+  line-height: 125%;
+}
 
-  h1, h2, p {
-    font-family: 'Arimo', sans-serif;
-  }
+/*** Utilities ***/
+.bg-white { background: #fff; background-color: #fff; }
 
-  header nav{
-    background-color: rgb(41, 41, 41);
-    height: 12%;
-    overflow: hidden !important;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
+.text-green { color: #00FF00; }
 
-  header nav button {
-    font-family: 'Arimo', sans-serif;
-    margin: 2em !important;
-    padding-left: 2em !important;
-    padding-right: 2em !important;
-    position: relative;
-    right: -36em;
-    top: -12em;
-    width: 15em;
-  }
+.text-white { color: #fff;  }
 
-  header nav h1:first-child {
-    color: white;
-    font-family: 'Teko', sans-serif;
-    font-size: 3.5em;
-    position: relative;
-    right: -1.5em;
-    top: 0.4em;
-  }
+/*** Elements ***/
+header {
+  background: #292929;
+}
 
-  header nav h1+h1 {
-    color: lime;
-    font-family: 'Teko', sans-serif;
-    font-size: 3.5em;
-    position: relative;
-    right: -4em;
-    top: -0.95em;
-  }
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
 
-  header nav h1, header nav i {
-    cursor: pointer;
-  }
+.left-nav, .right-nav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  img {
-    cursor: pointer;
+
+/*** Media Queries ***/
+@media only screen and (max-width: 800px)
+{
+
+  header nav {
     display: block;
-    margin: auto;
-    position: relative;
-    top: -4.6em;
-  }
-
-  /*MD Bootstrap Icons*/
-
-  #caret-nav {
-    color: aqua;
-    cursor: pointer;
-    font-size: 2.5em;
-    position: fixed;
-    right: 2em;
-    top: 13.5em;
-    z-index: 1;
-  }
-
-  #caret-nav:hover {
-    color: #00C851;
-  }
-
-  #chev-left {
-    cursor: pointer;
-    left: 10%;
-    position: relative;
-    top: 3.5em;
-  }
-
-  #chev-right {
-    cursor: pointer;
-    right: -84%;
-    position: relative;
-    top: 3.5em;
-  }
-
-  #globe {
-    color: aqua;
-    cursor: default;
-    font-size: 1.5em;
-    left: 7.9em;
-    position: relative;
-    top: -5.8em;
-  }
-
-  /*Classes*/
-
-  .img-caption {
-    background-color: #00C851;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
     margin: 0 auto;
-    position: relative;
     text-align: center;
-    top: -6em;
-    width: 50%;
   }
-
-  /*IDs*/
-
-  #contact-info {
-    position: relative;
-    top: -10em;
-  }
+}

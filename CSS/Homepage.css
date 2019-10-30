@@ -1,181 +1,53 @@
-  /*General Elements*/
-  html {
-    scroll-behavior: smooth;
-  }
-  footer {
-    background-color: #2E2E2E;
-    color: white;
-    position: relative;
-    top: 3.5em;
-  }
+/*** IDs ***/
+#offerings-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-  footer p {
-    position: relative;
-    right: -12.5em;
-    top: 8em;
-  }
+#pricing {
+  background: #00C851;
+  background-color: #00C851;
+  color: #fff;
+}
 
-  footer h2 {
-    color: #FFF;
-    font-size: 1em;
-    position: relative;
-    right: -30em;
-  }
+#pricing .wrapper {
+  display: flex;
+  color: #222;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-  footer+h1 {
-    color: white;
-    left: 5em;
-    position: relative;
-    top: -13.5em;
-  }
+#pricing .wrapper .bg-white {
+  padding-left: 2em;
+  padding-right: 2em;
+}
 
-  hr {
-    background-color: black !important;
-    border-color: black !important;
-    color: black !important;
-    position: relative;
-    top: -1em;
-    width: 14%;
-  }
+/*** Classes ***/
+.fa-clipboard-list, .fa-dumbbell, .fa-users { font-size: 6em; }
 
-  i {
-    font-size: 6em;
-  }
+.hr-black {
+  border: 1px solid #000;
+  width: 15%;
+}
 
+.price-heading { 
+  background: #424242; 
+  background-color: #424242; 
+  color: #fff;
+  padding-left: 4em;
+  padding-right: 4em;
+}
 
-  main {
-    position: relative;
-    text-align: center;
-    top: -5em;
-  }
+.text-center {
+  text-align: center;
+}
 
-  main div h2 {
-    color: rgb(45,45,45);
-    font-weight: bold;
-    position: relative;
-  }
+/*** Elements ***/
+html {
+  scroll-behavior: smooth !important;
+}
 
-  /*IDs*/
-
-  #contact-info {
-    background-color: #2E2E2E;
-  }
-
-  #contact-info h2 {
-    background-color: #00C851;
-    color: #FFF;
-    position: relative;
-  }
-
-  #contact-info h3 {
-    color: #FFF;
-  }
-
-  #dropdown {
-    display: none;
-  }
-
-  /*Pricing IDs*/
-
-  #all-out h3, #basic h3, #professional h3 {
-    overflow: hidden;
-  }
-
-  #all-out {
-    cursor: pointer;
-    left: 40em;
-    position: relative;
-    top: -10.5em;
-  }
-
-  #basic {
-    cursor: pointer;
-    left: -5em;
-    position: relative;
-    top: 7em;
-  }
-
-  #professional {
-    cursor: pointer;
-    position: relative;
-    right: -17em;
-    top: -1.8em;
-  }
-
-  /*FA Icon and MD Bootstrap IDs*/
-
-  #trainors {
-    position: relative;
-    left: -22em;
-  }
-
-  #gym {
-    position: relative;
-    top: -8.5em;
-  }
-
-  #personal-plan {
-    left: 22em;
-    position: relative;
-    top: -17em;
-  }
-
-    /*Classes*/
-
-  .local-info {
-    font-size: 2em;
-    font-weight: bold;
-    position: relative;
-    right: -5em;
-    top: -5.5em;
-  }
-
-  .location {
-    font-size: 0.5em;
-    position: relative;
-    right: -100em;
-    top: -10em;
-  }
-
-  .location h3 {
-    font-weight: bold;
-  }
-
-  .location i {
-    padding-bottom: 1em;
-  }
-
-  .pricing {
-    background-color: #00C851;
-    position: relative;
-    top: -13em;
-  }
-
-  .pricing h2 {
-    color: white;
-    font-size: 3em;
-    position: relative;
-    top: 1.5em;
-  }
-
-  .pricing div h3:first-child {
-    background-color: #424242;
-    color: white;
-  }
-
-  .pricing div h3 {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: black;
-    height: 1em;
-    left: 10em;
-    position: relative;
-    width: 10em;
-  }
-
-  .social-media {
-    position: relative;
-    right: -13em;
-    top: 12em;
-  }
+body main {
+  font-family: 'Arimo', Arial, sans-serif;
+}
