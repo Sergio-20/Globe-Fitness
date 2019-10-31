@@ -1,104 +1,35 @@
-  /*General Elements*/
-  body {
-    background-color: black !important;
-    background-image: url("https://images.pexels.com/photos/1543924/pexels-photo-1543924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-    background-position: left top, left center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+/*** Imports ***/
+@import url('https://fonts.googleapis.com/css?family=Lustria&display=swap');
 
-  br+hr{
-    width: 50%;
-  }
+.hero--background__image {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fefefe;
+  min-height: 250px;
+  position: relative;
+  z-index: -1;
+}
 
-  button:hover {
-    cursor: pointer;
-  }
+.overlay {
+  background:rgba(0, 0, 0, 0.5);  
+  z-index: 1;
+}
 
-  hr {
-    background-color: #FFF !important;
-    border-color: #FFF !important;
-    color: #FFF;
-    height: 1% !important;
-  }
+/*** IDs ***/
+#membership-heading-text {
+position: relative;
+top: -200px;
+text-align: center;
+}
 
-  img {
-    padding: 0.5em;
-    height: 60%;
-    width: 50%;
-  }
-
-  /*IDs*/
-  #all-out-plan h1+hr {
-    width: 8%;
-  }
-
-  #basic-plan p, #professional-plan p, #all-out-plan p {
-    
-    height: 35%;
-  }
-
-  #basic-plan, #all-out-plan {
-    background-image: linear-gradient(to right, #1eb589, #00ba7f, #00bf73, #00c463, #00c851);
-    color: white;
-    font-size: 1.5em;
-    font-weight: bolder;
-    text-align: center;
-  }
-
-  #basic-plan h1+hr {
-    width: 6%;
-  }
-
-  #basic-plan img, #all-out-plan img {
-    float: left;
-  }
-
-  #dropdown {
-    display: none;
-  }
-
-  #payment {
-    background-image: url("https://images.pexels.com/photos/866027/pexels-photo-866027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 2px solid white;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
-  }
-
-  #payment input[type="submit"]{
-    cursor: pointer;
-  }
-
-  #professional-plan {
-    background-image: linear-gradient(to right, #1eb589, #00ba7f, #00bf73, #00c463, #00c851);
-    color: white;
-    font-size: 1.5em;
-    font-weight: bolder;
-    text-align: center;
-  }
-
-  #professional-plan h1+hr {
-    width: 16%;
-  }
-
-  #professional-plan img {
-    float: right;
-  }
-
-  #text-header {
-    color: #FFF;
-    font-weight: bold;
-    position: relative;
-    text-align: center;
-    top: 8em;
-  }
-
+#membership-heading-text h1 { font-size: 4em; font-family: 'Arimo', Arial, Helvetica, sans-serif; }
+#membership-heading-text p { font-size: 25px; font-family: 'Lustria', Arial, Helvetica, sans-serif; }
 
 /*** Media Queries ***/
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 650px)
 {
-  
+  .overlay { background:rgba(0, 0, 0, 0.6); }
+  #membership-heading-text h1 { font-size: 2em; }
+  #membership-heading-text p { font-size: 22px; font-weight: 500; }
 }
