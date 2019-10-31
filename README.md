@@ -3,7 +3,7 @@
 
 ## View Online:
 
-> https://sergio-20.github.io/Globe-Fitness/HTML/Homepage.html
+> https://sergio-20.github.io/Globe-Fitness/
 ___
 ![Global-Fitness-Homepage-02](https://user-images.githubusercontent.com/29030325/54322109-25f74200-45b1-11e9-9168-c3b9a83213d6.png)
 ___
