@@ -17,10 +17,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-
     <!--Favicon-->
     <link rel="shortcut icon" href="globe.ico">
 
@@ -28,21 +24,23 @@
   </head>
 
   <body>
+    <!-- Start of: The Header Navigation -->
     <header>
-      <nav>
-        <h1>Globe</h1>
-        <h1>Fitness</h1>
-        <i id="globe" class="fas fa-globe"></i>
-        <button id="dropdown" class="btn btn-success"><i class="fas fa-bars"></i></button>
-        <button id="home" class="btn btn-success">Home</button>
-        <button id="memberships" class="btn btn-success">Membership</button>
-        <button id="about" class="btn btn-success">About Us</button>
-      </nav><div id="top"></div>
-
-      <a href="#top"><i id="caret-nav" class="fas fa-chevron-circle-up"></i></a>
-
-      <br>
-    </header>
+        <nav>
+          <div class="left-nav">
+            <a href="/Globe-Fitness/"><h1 class="heading-text text-white">Globe</h1></a>
+            <a href="/Globe-Fitness/" style="align-self: center;"><i id="globe" class="fas fa-globe"></i></a>
+            <a href="/Globe-Fitness/"><h1 class="heading-text text-green">Fitness</h1></a>
+          </div>
+          <div class="right-nav">
+            <a class="btn" href="/Globe-Fitness/">Home</a>
+            <a class="btn" href="./Membership.html">Membership</a>
+            <a class="btn" href="./About Us.html">About Us</a>
+            <a id="join-btn" class="btn" style="background: #FCD900 !important; color: #5e226a; font-weight: bold;">Join Now</a>
+          </div>
+        </nav>
+      </header>
+      <!-- End of: The Header Navigation -->
 
     <span id="text-header"><h1>A Plan To Suit Your Needs</h1></span>
     <br><br><br><br><br>
@@ -57,12 +55,12 @@
         something affordable, yet effective. The Basic Package will
         include: machine access and a trainer for $15/month.
       </p>
-      <button class="btn aqua-gradient">Select</button>
+      <button class="btn btn-dark">Select</button>
     </div>
 <br><br><br>
     <div id="professional-plan"><!--text is on the right, picture is floating left-->
       <img src="https://images.pexels.com/photos/376091/pexels-photo-376091.jpeg?cs=srgb&dl=action-adult-athlete-376091.jpg&fm=jpg" alt="Professional-plan image"/>
-      <h1>Professional</h1>
+      <h1>In-Depth</h1>
       <hr>
       <p>
         The Professional Plan is essential for those who desire
@@ -71,12 +69,12 @@
         to our machinery and our perk offerings of: boxing, yoga, swimming pool use,
         a strategic meal plan, and a nutritional analysis. All of this for $25/month.
       </p>
-      <button class="btn aqua-gradient">Select</button>
+      <button class="btn btn-dark">Select</button>
     </div>
 <br><br><br>
     <div id="all-out-plan"><!--text is on the left, picture is floating right-->
-      <img src="https://images.pexels.com/photos/241456/pexels-photo-241456.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="All-Out Plan"/>
-      <h1>All-out</h1>
+      <img src="https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="All-Out Plan"/>
+      <h1>Premium</h1>
       <hr>
       <p>
         With the All-out Plan you will obtain three trainers,
@@ -86,7 +84,7 @@
         ice room for cooldowns, and a health monitor to keep you updated on your health status.
         All of these perks are included for $45/month!
       </p>
-      <button class="btn aqua-gradient">Select</button>
+      <button class="btn btn-dark">Select</button>
     </div>
 <br><br><br>
 
@@ -115,42 +113,28 @@
       </form>
   </div>
 
-    <footer>
-      <p>
-        Globe Fitness was founded in order to enable people
-        with all health ambitions<br> to be healther; people who
-        are healthier physically live happier lives.<br>
-        CEO, James Awbrey was determined to establish the
-        Globe Fitness <br> as the solution to fully realize
-        the health ambitions of everyone. Enroll today!
-      </p>
-      <div class="social-media">
-        <button class="btn peach-gradient"><i class="fab fa-facebook-f"></i></button>
-        <button class="btn peach-gradient"><i class="fab fa-twitter"></i></button>
-        <button class="btn peach-gradient"><i class="fab fa-instagram"></i></button>
-        <button class="btn peach-gradient"><i class="fab fa-pinterest"></i></button>
-        <button class="btn peach-gradient"><i class="fab fa-google-plus-g"></i></button>
-      </div>
-      <div class="location">
-        <h3>Contact Us:</h3><br>
-        <i class="fas fa-map-marker-alt"></i><p class="local-info">139 Tremont St, Boston, MA 02111</p><br>
-        <i class="fas fa-phone"></i><p class="local-info">(617)555-5555</p><br>
-        <i class="fas fa-envelope"></i><p class="local-info">gf@globalfitness.com</p>
-      </div>
-      <h2>&copy 2019 Global Fitness LLC. All rights Reserved.</h2>
-    </footer>
-    <h1>About Globe Fitness</h1>
-
-    <!--jQuery-->
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-
-    <!--Javascript-->
-    <script src="../Javascript/Navbar.js"></script>
-    <script src="../Javascript/Membership.js"></script>
-    <script src="../Javascript/Responsive-dropdown.js"></script>
+  <!-- Start of: The Footer Navigation -->
+  <footer>
+    <h2 class="text-center" style="font-size: 40px;">Come and talk to us!</h2>
+    <hr class="hr-black" />
+    <iframe class="iframe"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.6515034429945!2d-119.68835988526531!3d34.41020280622942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9138d3f67f125%3A0xdb2cca3fb7795183!2sPier%20Santa%20Barbara!5e0!3m2!1sen!2sus!4v1572476298690!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="">
+    </iframe><br/><br/>
+    <p class="text-center">
+       Globe Fitness was founded in order to enable people
+       with all health ambitions to be healther because: people who
+       are healthier physically, live happier lives.
+       CEO, James Awbrey was determined to establish
+       Globe Fitness as the solution to fully realize
+       the health ambitions of everyone. Enroll today!
+    </p>
+    <div class="location">
+      <i class="fas fa-map-marker-alt"></i><p class="local-info">144-152 Stearns Wharf, Santa Barbara, CA 93101</p><br>
+      <i class="fas fa-phone"></i><p class="local-info">(555)555-5555</p><br>
+      <i class="fas fa-envelope"></i><p class="local-info">support@globalfitness.com</p>
+    </div>
+    <p class="copyright-text text-center">&copy 2019 Global Fitness LLC. All rights Reserved.</p>
+  </footer>
+  <!-- End of: The Footer Navigation -->
 
   </body>
 
