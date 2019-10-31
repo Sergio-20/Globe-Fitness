@@ -61,15 +61,23 @@
   padding-right: 4em;
 }
 
-.slideshow {
+.text-center {
+  text-align: center;
+}
+
+.video {
+  display: block;
+  margin: 4em auto;
+  height: auto;
+  width: 150vh;
+  max-width: 100%;
+}
+
+.video-list {
   background: #fff;
   background-color: #fff;
   padding-bottom: 10em;
   padding-top: 10em;
-}
-
-.text-center {
-  text-align: center;
 }
 
 /*** Utilities ***/

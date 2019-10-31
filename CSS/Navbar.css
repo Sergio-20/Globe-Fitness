@@ -48,6 +48,7 @@
   max-width: 100%;
 }
 
+.text-dark-green { color: #03BA80; }
 .text-green { color: #00FF00; }
 
 .text-white { color: #fff;  }
@@ -101,6 +102,23 @@ header nav {
 
 
 /*** Media Queries ***/
+@media only screen and (max-width: 600px)
+{
+  footer .location {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 650px)
+{
+  .img {
+    padding: 4em;
+  }
+}
+
+
 @media only screen and (max-width: 800px)
 {
 

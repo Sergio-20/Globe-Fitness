@@ -16,9 +16,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css" >
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-
     <!--Favicon-->
     <link rel="shortcut icon" href="../globe.ico">
 
@@ -39,6 +36,7 @@
           <button class="btn">Home</button>
           <button class="btn">Membership</button>
           <button class="btn">About Us</button>
+          <button class="btn" style="background: #FCD900 !important; color: #5e226a; font-weight: bold;">Join Now</button>
         </div>
       </nav>
     </header>
@@ -47,31 +45,42 @@
     <main>
 
       <div class="text-center" style="padding-top: 2em; padding-bottom: 8em;">
+
         <h2 style="margin: 1em auto;">Why Choose Globe Fitness?</h2>
         <hr class="hr-black">
         <h3 style="margin: 1em 2em;">We have a wide array of personal trainors, gyms, and programs to suit your needs!</h3>
+        
+
+        <video class="video" onloadeddata="this.play();" playsinline loop muted>
+          <source src="./assets/videos/boxing.mp4" type="video/mp4">
+        </video> 
+
+        <h2 style="font-size: 30px;">
+          At Global Fitness, we strive to help you improve your life, by getting you into shape first.
+        </h2>
+        <p class="px-22" style="padding: 2em;">
+          We have custom tailored plans to help you get in shape. From there you choose from a large list of fun exercises
+          to help you meet your custom goals. Those exercises can be anything from Boxing, Tennis, Yoga and many other
+          offerings of ours!
+        </p>
+
         <div id="offerings-section">
-
           <div>
-            <i class="fas fa-users"></i>
-            <p>Personal Trainors To Support You</p>
+            <i class="fas fa-users text-dark-green"></i>
+            <p style="margin: 1em auto;">Personal Trainors To Support You</p>
           </div>
-
+    
           <div>
-            <i class="fas fa-dumbbell"></i>
-            <p>Gyms With The Latest Equpment</p>
+            <i class="fas fa-dumbbell text-dark-green"></i>
+            <p style="margin: 1em auto;">Gyms With The Latest Equpment</p>
           </div>
-
+    
           <div>
-            <i class="fas fa-clipboard-list"></i>
-            <p>Personalized Workout Plans</p>
+            <i class="fas fa-clipboard-list text-dark-green"></i>
+            <p style="margin: 1em auto;">Personalized Workout Plans</p>
           </div>
-
         </div>
 
-        <figure>
-          <img style="padding: 2em;" class="img" src="https://images.pexels.com/photos/949126/pexels-photo-949126.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="A man picking up weights." />
-        </figure>
       </div>
 
       <div id="pricing" class="text-center">
@@ -105,12 +114,20 @@
         </div>
       </div>
 
-      <div class="slideshow">
-        <h2 class="text-center">Take a look at our offerings:</h2>
-        <figure>
-          <img style="padding: 4em;" class="img" src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="A young man using a treadmill." />
-        </figure>  
-        </div>
+      <div class="video-list">
+        <h2 class="text-center">Take a look at some of our offerings:</h2>
+        <hr class="hr-black" />
+        <video class="video" controls playsinline>
+            <source src="./assets/videos/yoga-exercise.mp4" type="video/mp4">
+        </video> 
+        <video class="video" controls playsinline>
+            <source src="./assets/videos/burpees.mp4" type="video/mp4">
+        </video>
+        
+        <video class="video" controls playsinline>
+            <source src="./assets/videos/tennis.mp4" type="video/mp4">
+        </video>
+      </div>
 
       <div class="contact-form">
         <h2 style="font-size: 40px;">Contact Us</h2><br>
@@ -133,7 +150,7 @@
       <h2 class="text-center" style="font-size: 40px;">Come and talk to us!</h2>
       <hr class="hr-black" />
       <iframe class="iframe"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.6515034429945!2d-119.68835988526531!3d34.41020280622942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9138d3f67f125%3A0xdb2cca3fb7795183!2sPier%20Santa%20Barbara!5e0!3m2!1sen!2sus!4v1572476298690!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="">
-      </iframe>
+      </iframe><br/><br/>
       <p class="text-center">
         Globe Fitness was founded in order to enable people
         with all health ambitions to be healther because: people who
@@ -150,17 +167,6 @@
       <p class="copyright-text text-center">&copy 2019 Global Fitness LLC. All rights Reserved.</p>
     </footer>
     <!-- End of: The Footer Navigation -->
-
-    <!--jQuery-->
-    <script
-			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous"></script>
-
-    <!--Javascript-->
-    <script src="../Javascript/Navbar.js"></script>
-    <script src="../Javascript/Homepage.js"></script>
-    <script src="../Javascript/Responsive-dropdown.js"></script>
 
   </body>
 
