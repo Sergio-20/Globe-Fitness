@@ -1,6 +1,9 @@
 /*** Imports ***/
 @import url('https://fonts.googleapis.com/css?family=Lustria&display=swap');
 
+/*** Classes ***/
+.font-18px { font-size: 18px; }
+
 .hero--background__image {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -16,6 +19,8 @@
   z-index: 1;
 }
 
+.padding-2em { padding: 0.5em 2em; }
+
 /*** IDs ***/
 #membership-heading-text {
 position: relative;
@@ -25,6 +30,14 @@ text-align: center;
 
 #membership-heading-text h1 { font-size: 4em; font-family: 'Arimo', Arial, Helvetica, sans-serif; }
 #membership-heading-text p { font-size: 25px; font-family: 'Lustria', Arial, Helvetica, sans-serif; }
+
+#plan-comparison {
+  margin: 0 auto;
+}
+
+#plan-comparison tr {
+  font-size: 22px !important;
+}
 
 /*** Media Queries ***/
 @media only screen and (max-width: 650px)
