@@ -48,11 +48,6 @@
 
 .fa-clipboard-list, .fa-dumbbell, .fa-users { font-size: 6em; }
 
-.hr-black {
-  border: 1px solid #000;
-  width: 15%;
-}
-
 .price-heading { 
   background: #424242; 
   background-color: #424242; 
@@ -78,11 +73,6 @@
   background-color: #fff;
   padding-bottom: 10em;
   padding-top: 10em;
-}
-
-/*** Utilities ***/
-.px-22 {
-  font-size: 22px;
 }
 
 /*** Elements ***/

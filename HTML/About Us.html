@@ -17,85 +17,70 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-
     <!--Favicon-->
     <link rel="shortcut icon" href="globe.ico">
 
     <title>Globe Fitness | About Us</title>
+
   </head>
 
   <body>
+    <!-- Start of: The Header Navigation -->
     <header>
-      <nav>
-        <h1>Globe</h1>
-        <h1>Fitness</h1>
-        <i id="globe" class="fas fa-globe"></i>
-        <button id="dropdown" class="btn btn-success"><i class="fas fa-bars"></i></button>
-        <button id="home" class="btn btn-success">Home</button>
-        <button id="memberships" class="btn btn-success">Membership</button>
-        <button id="about" class="btn btn-success">About Us</button>
-      </nav><div id="top"></div>
+        <nav>
+          <div class="left-nav">
+            <h1 class="heading-text text-white">Globe</h1>
+            <i id="globe" class="fas fa-globe"></i>
+            <h1 class="heading-text text-green">Fitness</h1>
+          </div>
+          <div class="right-nav">
+            <a class="btn" href="/">Home</a>
+            <a class="btn" href="./Membership.html">Membership</a>
+            <a class="btn" href="./About Us.html">About Us</a>
+            <a id="join-btn" class="btn" style="background: #FCD900 !important; color: #5e226a; font-weight: bold;">Join Now</a>
+          </div>
+        </nav>
+      </header>
+      <!-- End of: The Header Navigation -->
 
-      <a href="#top"><i id="caret-nav" class="fas fa-chevron-circle-up"></i></a>
-
+    <div id="about-info" class="text-center">
+      <h2 style="font-size: 40px; padding-top: 2em;">About Globe Fitness</h2>
+      <hr class="hr-black" style="margin-bottom: 2em;"/>
       <br>
-    </header>
-
-    <div id="about-info">
-      <h1>About Globe Fitness</h1>
-      <hr>
-      <br>
-      <img src="https://images.pexels.com/photos/685534/pexels-photo-685534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Training within our gym."/>
-      <br>
-      <p>Globe Fitness was founded in order to enable people
-      with all health ambitions to be healther; people who
-      are healthier physically live happier lives.
-      CEO, James Awbrey was determined to establish the
-      Globe Fitness as the solution to fully realize
-      the health ambitions of everyone.<br><br id="break-2">
-
-
-      Therefore, Enroll today! We're waiting to greet you!</p>
+      <img class="img" src="https://images.pexels.com/photos/685534/pexels-photo-685534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Training within our gym."/>
+      <p class="px-22" style="margin: 2em;">
+        Globe Fitness was founded in order to enable people
+        with all health ambitions to be healther; people who
+        are healthier physically live happier lives.
+        CEO, James Awbrey was determined to establish the
+        Globe Fitness as the solution to fully realize
+        the health ambitions of everyone.
+      </p>
+      <p class="px-22">Enroll today! We're waiting to greet you!</p>
     </div>
 
+    <!-- Start of: The Footer Navigation -->
     <footer>
-      <p>
-        Globe Fitness was founded in order to enable people
-        with all health ambitions<br> to be healther; people who
-        are healthier physically live happier lives.<br>
-        CEO, James Awbrey was determined to establish the
-        Globe Fitness <br> as the solution to fully realize
-        the health ambitions of everyone. Enroll today!
-      </p>
-      <div class="social-media">
-        <button class="btn peach-gradient"><i class="fab fa-facebook-f"></i></button>
-        <button class="btn peach-gradient"><i class="fab fa-twitter"></i></button>
-        <button class="btn peach-gradient"><i class="fab fa-instagram"></i></button>
-        <button class="btn peach-gradient"><i class="fab fa-pinterest"></i></button>
-        <button class="btn peach-gradient"><i class="fab fa-google-plus-g"></i></button>
-      </div>
-      <div class="location">
-        <h3>Contact Us:</h3><br>
-        <i class="fas fa-map-marker-alt"></i><p class="local-info">139 Tremont St, Boston, MA 02111</p><br>
-        <i class="fas fa-phone"></i><p class="local-info">(617)555-5555</p><br>
-        <i class="fas fa-envelope"></i><p class="local-info">gf@globalfitness.com</p>
-      </div>
-      <h2>&copy 2019 Global Fitness LLC. All rights Reserved.</h2>
-    </footer>
-    <h1>About Globe Fitness</h1>
-
-    <!--jQuery-->
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-
-    <!--Javascript-->
-    <script src="../Javascript/Navbar.js"></script>
-    <script src="../Javascript/Responsive-dropdown.js"></script>
+        <h2 class="text-center" style="font-size: 40px;">Come and talk to us!</h2>
+        <hr class="hr-black" />
+        <iframe class="iframe"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.6515034429945!2d-119.68835988526531!3d34.41020280622942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9138d3f67f125%3A0xdb2cca3fb7795183!2sPier%20Santa%20Barbara!5e0!3m2!1sen!2sus!4v1572476298690!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="">
+        </iframe><br/><br/>
+        <p class="text-center">
+          Globe Fitness was founded in order to enable people
+          with all health ambitions to be healther because: people who
+          are healthier physically, live happier lives.
+          CEO, James Awbrey was determined to establish
+          Globe Fitness as the solution to fully realize
+          the health ambitions of everyone. Enroll today!
+        </p>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i><p class="local-info">144-152 Stearns Wharf, Santa Barbara, CA 93101</p><br>
+          <i class="fas fa-phone"></i><p class="local-info">(555)555-5555</p><br>
+          <i class="fas fa-envelope"></i><p class="local-info">support@globalfitness.com</p>
+        </div>
+        <p class="copyright-text text-center">&copy 2019 Global Fitness LLC. All rights Reserved.</p>
+      </footer>
+      <!-- End of: The Footer Navigation -->
 
 
   </body>

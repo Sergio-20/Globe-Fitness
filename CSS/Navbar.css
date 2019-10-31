@@ -10,6 +10,10 @@
   font-size: 1.5em;
 }
 
+#join-btn:hover {
+  transform: scale(1.2);
+}
+
 /*** Classes ***/
 .btn {
   background: #00C368;
@@ -32,8 +36,17 @@
   justify-content: center;
 }
 
+.right-nav a:hover {
+  color: #fff;
+}
+
 /*** Utilities ***/
 .bg-white { background: #fff; background-color: #fff; }
+
+.hr-black {
+  border: 1px solid #000;
+  width: 15%;
+}
 
 .iframe {
   margin: 2em auto;
@@ -46,6 +59,10 @@
 .img {
   height: auto;
   max-width: 100%;
+}
+
+.px-22 {
+  font-size: 22px;
 }
 
 .text-dark-green { color: #03BA80; }
